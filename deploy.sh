@@ -1,5 +1,3 @@
-SHA=$(git rev-parse HEAD)
-
 docker build -t maukas/multi-client:latest -t maukas/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t maukas/multi-server:latest -t maukas/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t maukas/multi-worker:latest -t maukas/multi-worker:$SHA -f ./worker/Dockerfile ./worker
