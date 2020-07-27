@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Link to="/">Home FINAL KUB Skaffold </Link>
+          <Link to="/">Home FINAL KUB Skaffold 22222222222 </Link>
           <Link to="/otherpage">otherpage</Link>
         </header>
          <div>
